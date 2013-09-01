@@ -1,0 +1,14 @@
+{
+    "version": "1",
+    "name": "Simple Memo",
+    "launch_path": "/index.html",
+    "description": "Tadano Memo",
+    "developer": {
+        "name": "meco300"
+    },
+    "icons":{
+        "128":"/images/foxsukeicon.png"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "ja"
+}

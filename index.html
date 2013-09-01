@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Indexed DB TEST</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script src="memo.js"></script>
+		<!--<script src="jquery-2.0.3.min.js"></script>
+		<script src="jquery.mobile-1.3.2.js"></script>-->
+		<link href="memo.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+
+	</style>
+	<script type="text/javascript">
+
+
+	</script>
+</head>
+<body>
+	<div id="background"></dov>
+	<section id="home" data-role="page">
+		<div data-role="header" class="header">
+			<span>Simple Memo</span>
+		</div>
+		<div data-role="content" class="container">
+			<ul id="dataList" class="">
+			</ul>
+		</div>
+		<div id="addMemo">
+			<span>ADD</span>
+		</div>
+	</section>
+	<section id="edit" data-role="page">
+		<div data-role="header" class="header">
+			<span>Simple Memo</span>
+		</div>
+		<div data-role="content" class="container">
+			<span class="editTitle">title:</span>
+			<input id="title" type="text"></input>
+			<span class="editTitle">article:</span>
+			<textarea id="article" cols="40" rows="8"></textarea>
+			<button id="delete">delete</button>
+			<button id="save">save</button>
+		</div>
+		<div id="returnHome">
+			<span>Back</span>
+		</div>
+	</section>
+	<footer>
+		<span>
+			"ふぉくすけ"(C) 2008 Mozilla Japan
+		</span>
+	</footer>
+</body>
+</html>
